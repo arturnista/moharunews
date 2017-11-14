@@ -13,6 +13,10 @@
   color: white;
 }
 
+.facebook-link {
+    text-decoration: none;
+}
+
 .App-title-text {
   font-size: 1em;
 }
@@ -43,4 +47,10 @@
 
 .news-text {
 
+}
+
+.moharu-name {
+    color: purple;
+    font-size: 1.2em;
+    font-weight: bold;
 }
