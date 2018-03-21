@@ -14,6 +14,74 @@ class App extends Component {
                 <p className="App-title-text">O portal de informação do seu jogador favorito</p>
             </header>
 
+
+            <div className='news-container'>
+                <h2 className="news-title">Moharu encontra amigos youtubers em almoço</h2>
+                <p className='news-text'>
+                    Na quarta feira, dia 21 de março, <span className='moharu-name'>João "Moharu" Teló</span> encontrou alguns amigos em um almoço no restaurante Mravillhoso, em Novo Hamburgo.
+                </p>
+                <p className='news-text'>
+                    Os mesmos trocaram cumprimentos calorosos, seguidos de apertos de mãos e alguns abraços timidos.
+                </p>
+                <p className='news-text'>
+                    <span className='moharu-name'>João "Moharu" Teló</span> costuma jogar Pokemon com eles, um dos muitos hobbies do nosso jogador preferido.
+                </p>
+                <p className='news-text'>
+                    O youtuber Vínicius, conhecido como <span className='other-name'>Vinimoschen</span>, além do seu canal Sempre Nessas, que bateu semana passada a incrivel marca de 209 inscritos, descreve  <span className='moharu-name'>João "Moharu" Teló</span>  como uma pessoa esforçada.
+                </p>
+                <p className='news-cit'><i>
+                    Desde que conheci Moharu, ele tem melhorado muito suas habilidades em pokemon
+                    <br/>
+                    Podemos dizer que ele está se tornando um verdadeiro, mestre pokemon.
+                </i> Comenta Vinícius. </p>
+            </div>
+            <div className='news-container'>
+                <h2 className="news-title">BREAKING NEWS! Moharu irá se dedicar 100% aos <strong>GAMES</strong> a partir de abril</h2>
+                <p className='news-text'>
+                    A assessoria do site conseguiu uma noticia deveras importante no dia de hoje. <span className='moharu-name'>João "Moharu" Teló</span> está deixando o emprego atual (programador de seilaoq) para se dedicar 100% aos <strong>games eletrônicos</strong>.
+                </p>
+                <p className='news-text'>
+                    A busca profissional vem depois de uma queda de desempenho do jogador, muito atribuída à utilização de drogas pessadas, problema que o jogador tem a anos, após começar a jogar League of Legends e World of Warcraft, com passagens por Starcraft II e, nos seus momentos mais sombrios, Tibia.
+                </p>
+                <p className='news-text'>
+                    Porém, o jogador desmentiu estas acusações, dizendo que o trabalho militava a capacidade de treino do mesmo.
+                </p>
+                <p className='news-text'>
+                    Procurado pela assessoria do site, <span className='other-name'>Juliano</span>, dono da empresa, comentou o ocorrido:
+                </p>
+                <p className='news-cit'><i>
+                    Moharu? *Nome do editor*, a gente tem até amanhã para entregar essa feature, tu já foi avisado diversas vezes deste seu comportamento.
+                    <br/>
+                    Além de perde um excelente funcionário, ainda tenho que aturar esse tipo de gente inútil na porra da minha empresa.
+                </i></p>
+                <p className='news-text'>
+                    <span className='moharu-name'>João "Moharu" Teló</span> ainda não comentou se pretende se manter na Zony Gaming, porém, fontes falam de uma nova contratação, para um grande clube do mundo do automobilismo, que pretende entrar com tudo no mundo de <strong>eSports</strong>.
+                </p>
+            </div>
+            <div className='news-container'>
+                <h2 className="news-title">Moletom novo a caminho</h2>
+                <p className='news-text'>
+                    <span className='moharu-name'>João "Moharu" Teló</span> compartilhou em suas <a href="https://www.facebook.com/moharuow/">redes sociais</a> o novo modelo de moletom que será vendido em breve nas lojas virtuais de todo o brasil.
+                </p>
+                <div className='news-image-container'>
+                    <img  className='news-image' src="/images/moletom.jpg"></img>
+                </div>
+                <p className='news-text'>
+                    O modelo é bastante simples, contando somente com os escritos "Zony" e "Moharu", sendo, respectivamente, o nome da organização atual do jogador, e o nickname do mesmo.
+                </p>
+                <p className='news-text'>
+                    Desenhado por <a href="https://twitter.com/hallousy"><span className='other-name'>Luciana</span></a>, a artista utiliza toda sua técnica de desenhos que ela fez pq ela é desenhista para fazer o estilo único da peça.
+                </p>
+                <p className='news-text'>
+                    Procurada pela assessoria do site, Luciana comentou sobre a escolha do modelo, cores e escrita do moletom:
+                </p>
+                <p className='news-cit'><i>
+                    Não faço ideia de quem você é, para de me ligar, caralho.
+                </i></p>
+                <p className='news-text'>
+                    A peça deverá ser vendida tanto na loja de <span className='moharu-name'>João "Moharu" Teló</span>, quanto em quase todas as lojas de <strong>GAMERS</strong> do Brasil.
+                </p>
+            </div>
             <div className='news-container'>
                 <h2 className="news-title">Moharu comenta reportagem da UOL JOGOS</h2>
                 <p className='news-text'>
