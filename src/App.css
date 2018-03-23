@@ -42,7 +42,11 @@
 }
 
 .news-title {
+    font-size: 2em;
+}
 
+.news-subtitle {
+    font-size: 1.7em;
 }
 
 .news-text {
@@ -72,4 +76,14 @@
 .news-image {
     height: 100%;
     width: auto;
+}
+
+.news-moharup {
+    font-size: 1.5em;
+    color: purple;
+    font-weight: bold;
+}
+
+.news-audio {
+    width: 80%;
 }

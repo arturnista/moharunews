@@ -15,6 +15,56 @@ class App extends Component {
             </header>
 
 
+
+            <div className='news-container'>
+                <h2 className="news-title">JOGADOR FAMOSO DE VIDEOGAMES JOGA TUDO FORA POR JOGO DE CARTA</h2>
+                <h3 className="news-subtitle">Crise no cenario nacional de overwatch</h3>
+                <p className='news-text'>
+                    Na quinta feira, dia 22 de Março, recebemos uma informação especial dos nossos correspondentes de campo, Trik e Trika, sobre uma notícia que pode abalar o cenário nacional e internacional de Overwatch.
+                </p>
+                <audio controls className='news-audio'>
+                    <source src="/audio/trik-trika-jogador-joga-vida-fora.ogg" type="audio/ogg"/>
+                </audio>
+                <p className='news-text'>
+                    O jogador em questão não teve seu nome divulgado, porém, nossa fonte confiavél, 'LIBERACU', indica que este pode sim ser <span className='moharu-name'>João "Moharu" Teló</span>.
+                </p>
+                <p className='news-text'>
+                    Questionado sobre o assunto, o jogador deu a seguinte resposta:
+                </p>
+                <p className='news-cit'><i>
+                    you gotta do what you gotta do
+                </i></p>
+
+                <p className='news-text'>
+                    'LIBERACU' ainda no enviou possíveis conversas que o Jogador <span className='moharu-name'>João "Moharu" Teló</span> teve com um de seus colegas de trabalho:
+                </p>
+                <p className='news-cit'><i>
+                    <strong>ME FALA SE CHEGOU PELAMOR DE ZEUS</strong>
+                </i></p>
+                <p className='news-text'>
+                    Agressivo, Moharu questiona o colega se o seu tapete de jogo de carta havia chegado.
+                </p>
+                <p className='news-text'>
+                    Após isso, o funcionário questiona Moharu sobre ele ter havia realmente jogado a vida fora por um jogo de cartas com tapete:
+                </p>
+                <p className='news-cit'><i>
+                    é mesmo <br />
+                    mas se eu nao <br />
+                    se eu ficar <br />
+                    na abstinencia <br />
+                    vai ser pior <br />
+                    pra todo mundo <br />
+                </i></p>
+                <p className='news-text'>
+                    Mesmo que bombasticas, essas afirmações não diminuem o que <span className='moharu-name'>João "Moharu" Teló</span> conseguiu por toda a sua carreira, conquistando diversos campeonatos de Overwatch, Pokemon, World of Warcraft, Dota2, Candy Crush, Corrida de Anão, Velozes e furiosos desafio em Tokyo e olimpiadas de matemática que ngm liga pq foda-se.
+                </p>
+                <p className='news-text'>
+                    Assim que possível, o MoharuNEWS irá atualizar os leitores com novas informações.
+                </p>
+                <p className='news-moharup'>
+                    MOHARU UP!
+                </p>
+            </div>
             <div className='news-container'>
                 <h2 className="news-title">Moharu encontra amigos youtubers em almoço</h2>
                 <p className='news-text'>
@@ -34,6 +84,9 @@ class App extends Component {
                     <br/>
                     Podemos dizer que ele está se tornando um verdadeiro, mestre pokemon.
                 </i> Comenta Vinícius. </p>
+                <p className='news-moharup'>
+                    MOHARU HYPE!
+                </p>
             </div>
             <div className='news-container'>
                 <h2 className="news-title">BREAKING NEWS! Moharu irá se dedicar 100% aos <strong>GAMES</strong> a partir de abril</h2>
@@ -41,10 +94,10 @@ class App extends Component {
                     A assessoria do site conseguiu uma noticia deveras importante no dia de hoje. <span className='moharu-name'>João "Moharu" Teló</span> está deixando o emprego atual (programador de seilaoq) para se dedicar 100% aos <strong>games eletrônicos</strong>.
                 </p>
                 <p className='news-text'>
-                    A busca profissional vem depois de uma queda de desempenho do jogador, muito atribuída à utilização de drogas pessadas, problema que o jogador tem a anos, após começar a jogar League of Legends e World of Warcraft, com passagens por Starcraft II e, nos seus momentos mais sombrios, Tibia.
+                    A busca profissional vem depois de uma queda de desempenho do jogador, muito atribuída à utilização de drogas pesadas, problema que o jogador tem a anos, após começar a jogar League of Legends e World of Warcraft, com passagens por Starcraft II e, nos seus momentos mais sombrios, Tibia.
                 </p>
                 <p className='news-text'>
-                    Porém, o jogador desmentiu estas acusações, dizendo que o trabalho militava a capacidade de treino do mesmo.
+                    Porém, o jogador desmentiu estas acusações, dizendo que o trabalho limitava a capacidade de treino do mesmo.
                 </p>
                 <p className='news-text'>
                     Procurado pela assessoria do site, <span className='other-name'>Juliano</span>, dono da empresa, comentou o ocorrido:
@@ -56,6 +109,9 @@ class App extends Component {
                 </i></p>
                 <p className='news-text'>
                     <span className='moharu-name'>João "Moharu" Teló</span> ainda não comentou se pretende se manter na Zony Gaming, porém, fontes falam de uma nova contratação, para um grande clube do mundo do automobilismo, que pretende entrar com tudo no mundo de <strong>eSports</strong>.
+                </p>
+                <p className='news-moharup'>
+                    MOHARU VROW!
                 </p>
             </div>
             <div className='news-container'>
@@ -81,6 +137,9 @@ class App extends Component {
                 <p className='news-text'>
                     A peça deverá ser vendida tanto na loja de <span className='moharu-name'>João "Moharu" Teló</span>, quanto em quase todas as lojas de <strong>GAMERS</strong> do Brasil.
                 </p>
+                <p className='news-moharup'>
+                    MOHARU UP!
+                </p>
             </div>
             <div className='news-container'>
                 <h2 className="news-title">Moharu comenta reportagem da UOL JOGOS</h2>
@@ -104,6 +163,9 @@ class App extends Component {
                 <p className='news-text'>
                     A assessoria do site ainda não se pronunciou sobre os comentários do jogador.
                 </p>
+                <p className='news-moharup'>
+                    MOHARU CIMA!
+                </p>
             </div>
             <div className='news-container'>
                 <h2 className="news-title">Moharu para a divisão Brasileira de Overwatch do Brasil de Pelotas</h2>
@@ -116,6 +178,9 @@ class App extends Component {
                 <p className='news-text'>
                     <span className='moharu-name'>Moharu</span> deve começar sua atuação na equipe à partir de Janeiro de 2018, após finalizar os campeonatos com sua equipe atual, Zony Gaming.
                 </p>
+                <p className='news-moharup'>
+                    MOHARU YOW!
+                </p>
             </div>
             <div className='news-container'>
                 <h2 className="news-title">Zony Gaming (time de Moharu) substitui time no campeonato brasileiro de Overwatch</h2>
@@ -127,6 +192,9 @@ class App extends Component {
                 </p>
                 <p className='news-text'>
                     10min pra acabar o expediente
+                </p>
+                <p className='news-moharup'>
+                    MOHARU UP!
                 </p>
             </div>
         </div>
