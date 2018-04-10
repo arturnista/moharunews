@@ -15,6 +15,36 @@ class App extends Component {
             </header>
 
 
+            <div className='news-container'>
+                <h2 className="news-title">Moharu pode virar blogueiro de profissão!</h2>
+                <p className='news-text'>
+                    Na tarde desta terça feira, 10 de Abril de 2018, <span className='moharu-name'>João "Moharu" Teló</span> criou uma nova rede social, <a href="https://www.instagram.com/moharuow/">Instagram</a>.
+                </p>
+                <p className='news-text'>
+                    O que parece uma simples notícia pode ter um final muito mais sinistro.
+                </p>
+                <p className='news-text'>
+                    Muitos questionaram a decisão de <span className='moharu-name'>João "Moharu" Teló</span> em se dedicar ao <strong>OVERWATCH</strong> de forma profissional, achando uma decisão bastante perigosa para o futuro de nosso atleta.
+                </p>
+                <p className='news-text'>
+                    Porém, em um furo de reportagem, conseguimos uma imagem do chat secreto que <span className='moharu-name'>Moharu</span> possui para seus amigos mais próximos, que pode demonstrar que o mesmo tem intenções de virar um...
+                </p>
+                <p className='news-news'>
+                    <span className='full-big'><strong>BLOGUEIRO</strong></span>
+                </p>
+                <p className='news-text'>
+                    A imagem, mostrada logo a baixo, foi conseguida por um de nossos informantes, o 'CIDADE LONGE PRA CARALHO EM', e mostra <span className='moharu-name'>Moharu</span> aspirando a nova profissão.
+                </p>
+                <div className='news-image-container'>
+                    <img className='news-image-inv' src="/images/moharu_bloguero.png"></img>
+                </div>
+                <p className='news-text'>
+                    Nós, da equipe criativa do Moharu News, torcemos para que o nosso jogador preferido repense a sua decisão e que siga sua carreira de <strong>GAMER</strong> profissional.
+                </p>
+                <p className='news-moharup'>
+                    MOHARU AEHOOO!
+                </p>
+            </div>
 
             <div className='news-container'>
                 <h2 className="news-title">JOGADOR FAMOSO DE VIDEOGAMES JOGA TUDO FORA POR JOGO DE CARTA</h2>

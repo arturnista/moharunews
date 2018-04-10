@@ -70,12 +70,19 @@
 }
 
 .news-image-container {
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .news-image {
     height: 100%;
     width: auto;
+}
+
+.news-image-inv {
+    height: auto;
+    width: 100%;
 }
 
 .news-moharup {
@@ -86,4 +93,8 @@
 
 .news-audio {
     width: 80%;
+}
+
+.full-big {
+    font-size: 2em;
 }
