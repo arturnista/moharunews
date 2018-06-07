@@ -27,7 +27,7 @@ class App extends Component {
                     O salário do atleta não foi divulgado, mas deve variar entre o valor do bitcoin agora e o valor do bitcoin agora.
                 </p>
                 <p className='news-text'>
-                    A Zony Gaming, equipe que abraçou Moharu no seu momento mais dificil, que cuidou de nosso querido jogador e cresceu ele para onde ele chegou hoje, ela pretende continuar ai ganhando jogos as vezes e perdendo as vezes, conforme conta Roberto Zony Gaming, atual CEO da companhia:
+                    A equipe que abraçou Moharu no seu momento mais dificil, que cuidou de nosso querido jogador e o ajudou a chegar onde está hoje, Zony Gaming, pretende continuar ai ganhando jogos as vezes e perdendo as vezes, conforme conta Roberto Zony Gaming, atual CEO da companhia:
                 </p>
                 <p className='news-cit'><i>
                     Pretendemos continuar ai ganhando jogos as vezes e perdendo as vezes.
