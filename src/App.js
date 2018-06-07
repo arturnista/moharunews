@@ -16,7 +16,7 @@ class App extends Component {
             </header>
 
             <div className='news-container'>
-                <h2 className="news-title">Moharu pode deixar Zony e entrar para mais equipe de eSports do mundo!</h2>
+                <h2 className="news-title">Moharu pode deixar Zony e entrar para a maior equipe de eSports do mundo!</h2>
                 <p className='news-text'>
                     Nosso correspondente "CAGANOBANHO PAI" trouxe uma informação bombástica.
                 </p>
