@@ -53,6 +53,11 @@
 
 }
 
+.news-help {
+    font-size: .8em;
+    color: #ccc;
+}
+
 .news-cit {
     font-size: 1.1em;
 }

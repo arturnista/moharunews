@@ -10,9 +10,118 @@ class App extends Component {
                 <p className="App-title-text">Bem vindo ao</p>
                 <a href='https://www.facebook.com/moharuow' className='facebook-link'>
                     <h1 className="App-title">MOHARU NEWS</h1>
+                    <p>moharunews@gmail.com</p>
                 </a>
                 <p className="App-title-text">O portal de informação do seu jogador favorito</p>
             </header>
+
+            <div className='news-container'>
+                <h2 className="news-title">Moharu em crise existencial?</h2>
+                <p className='news-text'>
+                    No dia de Ontem, às 09:34, nós da equipe se deparamos com a seguinte imagem na Rede Social Facebook:
+                </p>
+                <div className='news-image-container'>
+                    <img className='news-image-inv' src="/images/jao_telo_curte_propria_pagina_ta_meio_ruim_de_fa_em_tio.png"></img>
+                </div>
+                <p className='news-text'>
+                    O que nos causou bastante espanto é que, ambas as pessoas, João Teló e <span className='moharu-name'>João "Moharu" Teló</span>, teoricamente, são a mesma pessoa!
+                </p>
+                <p className='news-text'>
+                    Teria isso sido uma crise mental do nosso querido jogador?
+                </p>
+                <p className='news-text'>
+                    Teria Moharu caindo em uma crise de dependencia de entorcepentes?
+                </p>
+                <p className='news-text'>
+                    Teria ele criado um alter ego, tal qual Pelé e Edison Arantes do Nascimento?
+                </p>
+                <p className='news-text'>
+                    Estas duvidas ficam no ar enquanto esperamos um pronunciamento oficial do nosso querido e amado jogador.
+                </p>
+                <p className='news-text'>
+                    Ficamos no aguardo de novas notícias.
+                </p>
+                <p className='news-moharup'>
+                    MOHARU VAI!
+                </p>
+            </div>
+
+
+
+            <div className='news-container'>
+                <h2 className="news-title">Time em crise após derrota na classificatória</h2>
+                <p className='news-text'>
+                    Nesta semana, o Time da Zony Gaming, encabeçado por <span className='moharu-name'>João "Moharu" Teló</span>, perdeu o jogo que classificaria o time para o campeonato mais importante do planeta.
+                </p>
+                <p className='news-text'>
+                    A derrota abalou mentalmente os integrantes do time. Fontes inclusive relataram diversas brigas internas.
+                </p>
+                <p className='news-text'>
+                    A Equipe criativa MoharuNews foi atrás de fãs para sabermos como anda a imagem da Zony Gaming pelos olhos daqueles que, segundo <span className='moharu-name'>João "Moharu" Teló</span>, são os que dão alegria na hora da vitória, seus fãs.
+                </p>
+                <p className='news-text'>
+                    Perguntamos "Você acha que a Zony Gaming está em crime?" para vários internautas e estas foram as respostas:
+                </p>
+                <p className='news-help'>
+                    os comentários são feitos por fãs sem ligação profissional OU legal com a Equipe criativa MoharuNews.
+                </p>
+                <p className='news-cit'><i>
+                    <br/> <strong>Lorek</strong>:
+                    <br/> AHAHAHAHAHAHHAHAA
+                    <br/> Não, eu acho que apesar de estar enfrentando dificuldades a Zony Gaming ainda não está desempenhando o seu máximo potencial
+                    <br/> devido à mudanças recentes no cenário
+                    <br/> mas a base é forte mano
+                    <br/> e a zony triunfará
+                </i></p>
+                <p className='news-cit'><i>
+                    <br/> <strong>André</strong>:
+                    <br/> what
+                    <br/> o jao fez um video de melhores momentos
+                    <br/> ou ele ta querendo uma carreira solo
+                    <br/> ou a zony
+                    <br/> precisa de views
+                    <br/> sei la
+                </i></p>
+                <p className='news-cit'><i>
+                    <br/> <strong>Olivera</strong>:
+                    <br/> Acho que falta eu
+                </i></p>
+                <p className='news-cit'><i>
+                    <br/> <strong>Thiago</strong>:
+                    <br/> Eu só trabalho aqui senhor.
+                </i></p>
+                <p className='news-cit'><i>
+                    <br/> <strong>Lulu</strong>:
+                    <br/> Hahahahahahahahahah
+                    <br/> A crise nem chegou lá ainda
+                    <br/> Não sei se eles já não tão vendendo trufa também
+                    <br/> Me coloco á disposição para demais esclarecimentos no telefone 51 9892-4890
+                    <br/> E friso que o Moharinhu é ZiKa DIMAIS irmauzinho
+                    <br/> E que eu to usando uma cueca da supreme que custou 120 doll
+                </i></p>
+                <p className='news-cit'><i>
+                    <br/> <strong>Willis</strong>:
+                    <br/> HASIOHEOASIEOHIASEOHASE
+                    <br/> Acho.
+                </i></p>
+                <p className='news-cit'><i>
+                    <br/> <strong>Relampago Marquinhos</strong>:
+                    <br/> Eu acho... Os caras andam meio sumidos... O João "Moharu" Teló chegou *seguido de berros inteligiveis, provavelmente derivados do fato de seu personagem em um MMO Rpg ter perdido a vida*
+                </i></p>
+                <p className='news-cit'><i>
+                    <br/> <strong>Pedro</strong>:
+                    <br/> O João postou video ontem então deve estar tudo bem.
+                </i></p>
+                <p className='news-text'>
+                    Podemos ver a mudança de carater dos fãs sobre a equipe.
+                </p>
+                <p className='news-text'>
+                    Nós da equipe MoharuNews gostariamos de saber a sua opinião! Mande sua opinião para o email para moharunews@gmail.com!
+                </p>
+                <p className='news-moharup'>
+                    MOHARU ZOP!
+                </p>
+            </div>
 
 
             <div className='news-container'>
