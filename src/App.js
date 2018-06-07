@@ -60,7 +60,7 @@ class App extends Component {
                     A Equipe criativa MoharuNews foi atrás de fãs para sabermos como anda a imagem da Zony Gaming pelos olhos daqueles que, segundo <span className='moharu-name'>João "Moharu" Teló</span>, são os que dão alegria na hora da vitória, seus fãs.
                 </p>
                 <p className='news-text'>
-                    Perguntamos "Você acha que a Zony Gaming está em crime?" para vários internautas e estas foram as respostas:
+                    Perguntamos "Você acha que a Zony Gaming está em crise?" para vários internautas e estas foram as respostas:
                 </p>
                 <p className='news-help'>
                     os comentários são feitos por fãs sem ligação profissional OU legal com a Equipe criativa MoharuNews.
