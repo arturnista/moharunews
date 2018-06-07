@@ -16,6 +16,34 @@ class App extends Component {
             </header>
 
             <div className='news-container'>
+                <h2 className="news-title">Moharu pode deixar Zony e entrar para mais equipe de eSports do mundo!</h2>
+                <p className='news-text'>
+                    Nosso correspondente "CAGANOBANHO PAI" trouxe uma informação bombástica.
+                </p>
+                <p className='news-text'>
+                    Nossa fonte contou que <span className='moharu-name'>João "Moharu" Teló</span> está em contato com <strong>Robson Jorge</strong>, forte time que surgiu como uma Guilda de Tibia, se tornando uma das, quiçá a maior, equipe de <strong>GAMES ELETRÔNICOS</strong> que existe.
+                </p>
+                <p className='news-text'>
+                    O salário do atleta não foi divulgado, mas deve variar entre o valor do bitcoin agora e o valor do bitcoin agora.
+                </p>
+                <p className='news-text'>
+                    A Zony Gaming, equipe que abraçou Moharu no seu momento mais dificil, que cuidou de nosso querido jogador e cresceu ele para onde ele chegou hoje, ela pretende continuar ai ganhando jogos as vezes e perdendo as vezes, conforme conta Roberto Zony Gaming, atual CEO da companhia:
+                </p>
+                <p className='news-cit'><i>
+                    Pretendemos continuar ai ganhando jogos as vezes e perdendo as vezes.
+                </i> - Conta Roberto Zony Gaming.</p>
+                <p className='news-text'>
+                    Nós da equipe MoharuNews gostariamos de saber o que você acha!
+                </p>
+                <p className='news-text'>
+                    Envie um email para moharunews@gmail.com e nos conte! A gente perdeu tempo criando essa merda então seria legal se vocês usassem!
+                </p>
+                <p className='news-moharup'>
+                    MOHARU VAI!
+                </p>
+            </div>
+
+            <div className='news-container'>
                 <h2 className="news-title">Moharu em crise existencial?</h2>
                 <p className='news-text'>
                     No dia de Ontem, às 09:34, nós da equipe se deparamos com a seguinte imagem na Rede Social Facebook:
