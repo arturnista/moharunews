@@ -5,7 +5,8 @@ class App extends Component {
     constructor(){
         super()
         this.state = {
-            appClass: 'App'
+            appClass: 'App',
+            wrapperClass: 'wrapper'
         }
     }
     componentDidMount() {
@@ -18,16 +19,18 @@ class App extends Component {
 
     stickHeader = () => {
         if(window.scrollY < 100 )
-            this.setState({appClass: 'App'})
+            this.setState({appClass: 'App', wrapperClass: 'wrapper'})
         else
-            this.setState({appClass: 'App sticky-header'})
+            this.setState({appClass: 'App sticky-header', wrapperClass: 'wrapper wrapper-sticky'})
     }   
 
     render() {
         return (
         <div className={this.state.appClass}>
             <header className="App-header">
-                <img src='/images/moharu.jpg' className="App-logo" alt="logo" />
+                <div className="moharu-game">
+                    <img src='/images/moharu.jpg' className="App-logo" alt="logo" title="MOHARU GAME: TENTE PARAR A FOTO NO MOMENTO CERTO" />
+                </div>
                 <p className="App-title-text">Bem vindo ao</p>
                 <a href='https://www.facebook.com/moharuow' className='facebook-link'>
                     <h1 className="App-title">MOHARU NEWS</h1>
@@ -35,7 +38,7 @@ class App extends Component {
                 </a>
                 <p className="App-title-text">O portal de informação do seu jogador favorito</p>
             </header>
-            <div className="wrapper">
+            <div className={this.state.wrapperClass}>
                 <div className='news-container'>
                     <h2 className="news-title">Moharu pode deixar Zony e entrar para a maior equipe de eSports do mundo!</h2>
                     <p className='news-text'>
