@@ -12,6 +12,9 @@
     background-color: #222;
     color: white;
 }
+.copa-theme {
+    background: linear-gradient(yellow, green);
+}
 .App-footer {
     height: 60px;
     background-color: #222;
@@ -62,7 +65,7 @@ header {
     background-color: #222;
 }
 .sticky-header .App-logo {
-    display: none 
+    display: none
 }
 .sticky-header .App-title {
     margin: 0;

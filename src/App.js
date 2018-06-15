@@ -22,12 +22,12 @@ class App extends Component {
             this.setState({appClass: 'App', wrapperClass: 'wrapper'})
         else
             this.setState({appClass: 'App sticky-header', wrapperClass: 'wrapper wrapper-sticky'})
-    }   
+    }
 
     render() {
         return (
         <div className={this.state.appClass}>
-            <header className="App-header">
+            <header className="App-header copa-theme">
                 <div className="moharu-game">
                     <img src='/images/moharu.jpg' className="App-logo" alt="logo" title="MOHARU GAME: TENTE PARAR A FOTO NO MOMENTO CERTO" />
                 </div>
@@ -39,6 +39,36 @@ class App extends Component {
                 <p className="App-title-text">O portal de informação do seu jogador favorito</p>
             </header>
             <div className={this.state.wrapperClass}>
+
+
+                <div className='news-container'>
+                    <h2 className="news-title">BREAKING NEWS! Moharu faz meme</h2>
+                    <p className='news-text'>
+                        Hoje, durante a COPA DO MUNDO! nosso querido <span className='moharu-name'>João "Moharu" Teló</span>, está acompanhando a ESL BELO HORIZONTE, em Belo Horizonte.
+                    </p>
+                    <p className='news-text'>
+                        Porém, algo inesperado aconteceu. Em uma de suas viagens para um mercado, <span className='moharu-name'>João "Moharu" Teló</span> confeccionou um novo meme:
+                    </p>
+                    <div className='news-image-container'>
+                        <img className='news-image-inv' src="/images/moharu_faz_o_melhor_meme_que_ja_existiu.png"></img>
+                    </div>
+                    <p className='news-text'>
+                        Especialistas já dizem que o meme parece ter um futuro promissor. Entrevistado pela equipe, SID do AsVeiz Salvo, comentou a imagem:
+                    </p>
+                    <p className='news-cit'><i>
+                        Tem futuro isso ai, vou botar no blog kkk
+                    </i></p>
+                    <p className='news-text'>
+                        Será que <span className='moharu-name'>João "Moharu" Teló</span> irá começar uma nova vida como criador de memes? Só o futuro dirá!
+                    </p>
+                    <p className='news-moharup'>
+                        MOHARU MEMES!
+                    </p>
+                    <p className='news-moharup'>
+                        VAI NEYMAR CARALHO!
+                    </p>
+                </div>
+
                 <div className='news-container'>
                     <h2 className="news-title">Moharu pode deixar Zony e entrar para a maior equipe de eSports do mundo!</h2>
                     <p className='news-text'>
