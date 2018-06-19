@@ -42,6 +42,44 @@ class App extends Component {
 
 
                 <div className='news-container'>
+                    <h2 className="news-title">Moharu assume amor por Argentina e avisa, "Em 2018 meu time é branco e azul-celeste"</h2>
+                    <p className='news-text'>
+                        <span className='moharu-name'>João "Moharu" Teló</span> deu uma declaração um tanto quanto polêmica no dia de hoje.
+                    </p>
+                    <p className='news-text'>
+                        Enquanto se alcoolizava com amigos, após curtir os embalos da noite Belo Horizontenha, <span className='moharu-name'>João "Moharu" Teló</span> acabou fazendo uma declaração surpreendente, que irá deixar todos os seus fãs apreensivos pelas próximas semanas.
+                    </p>
+                    <p className='news-text'>
+                        <span className='moharu-name'>João "Moharu" Teló</span> pode se ser contratado e, muito pior, pode acabar jogando por um time argentino de Overwatch.
+                    </p>
+                    <p className='news-text'>
+                        A equipe MoharuNEWS, após um árduo jornalismo investigativo, conseguiu descobrir o time que o nosso jogador até então favorito irá entrar.
+                    </p>
+                    <p className='news-text'>
+                        Após questionar todos os times da JAJAJA, acronimo para Liga Nacional Argentina, um time respondeu positivamente para o nosso questionamento.
+                    </p>
+                    <p className='news-cit'><i>
+                        JAJA MOHARU ÉS UN GRANDE JOGADOR E IRÁS JOGAR POR LÁ EQUIPE ARGENTINA QUE ES MUY BUENA E NO ES MEJOR QUE BRASIL PEROSUPOSTO NO SE OQ ISTO SIGNIFICA PERO ES UNA PALAVRAITA MT TOP MAS MOHARU VA JOGAR SIM E DESTROIR LOS BRASILENHOS PUTOS ARRIBA MUCHACHOS QUIÉN NO SALTA, QUIERE AUMENTO!
+                    </i> - Se pronunciou Marcelito, atual CEO do time MARADONA ES MUY BUENO.</p>
+                    <p className='news-text'>
+                        Fica nosso questionamento, teria <span className='moharu-name'>João "Moharu" Teló</span> ficado triste com a falta de oportunidades do governo brasileiro? Teria <span className='moharu-name'>João "Moharu" Teló</span> se decepcionado com os seus conterraneos após a derrota HUMILHANTE no último jogo pela nossa querida e amada Zony Gaming? Teria nosso querido jogador ter sido trocado por seu gemeo malígno, oq explicaria o motivo dele ter curtido a própria página a alguns dias atrás já que não era ele e sim o seu gemeo Roão, que agora que parei para pensar em um nome muito argetino?
+                    </p>
+                    <p className='news-text'>
+                        É dificil saber, mas, enquanto não temos uma resposta, resta somente doarmos muito Bitcoin para o redator do site.
+                    </p>
+                    <div className='news-image-container'>
+                        <img className='news-image-inv' src="/images/qrcode_da_carteira_bitcoin_do_dono_do_site_manda_varios_btc_ae.png"></img>
+                    </div>
+                    <p className='news-text'>
+                        1EL9Wnw4D3P411x9BCixMuXBZD3TpT1E4M
+                    </p>
+                    <p className='news-moharup'>
+                        MOHARU ARRIBA!
+                    </p>
+                </div>
+
+
+                <div className='news-container'>
                     <h2 className="news-title">BREAKING NEWS! Moharu faz meme</h2>
                     <p className='news-text'>
                         Hoje, durante a COPA DO MUNDO! nosso querido <span className='moharu-name'>João "Moharu" Teló</span>, está acompanhando a ESL BELO HORIZONTE, em Belo Horizonte.
