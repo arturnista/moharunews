@@ -42,6 +42,44 @@ class App extends Component {
 
 
                 <div className='news-container'>
+                    <h2 className="news-title">Moharu pode ter sido contratado por NIP, afirma foto.</h2>
+                    <p className='news-text'>
+                        Hoje, em sua volta para a casa, <span className='moharu-name'>João "Moharu" Teló</span> trocava algumas mensagens com seus colegas, amigos e o Bob. Em uma dessas mensagens, nosso atleta enviou uma foto que pode revelar o seu futuro no eSports mundial:
+                    </p>
+                    <div className='news-image-container'>
+                        <img className='news-image-inv' src="/images/moharu_para_a_nip_agora_meu_deus_oq_ta_acontecendo.jpg"></img>
+                    </div>
+                    <p className='news-cit'><i>
+                        Moharu pode ter sido contratado por NIP
+                    </i> - Afirma a foto, após ter sido enviada.</p>
+                    <p className='news-text'>
+                        <span className='moharu-name'>João "Moharu" Teló</span> não deu mais declarações sobre o acontecimento, ignorando todos os pedidos de explicação de seus colegas e amigos, inclusive do Bob.
+                    </p>
+                    <p className='news-cit'><i>
+                        Mas ele não iria para um time da JAJAJA?
+                    </i> - Questiona você, após ler esta notícia.</p>
+                    <p className='news-text'>
+                        Como todos sabem, a NIP <a href="https://globoplay.globo.com/v/6818470/programa/">liberou o seu time de Overwatch</a> e atualmente se encontra sem equipe. Teria ela intenções de contratar um time Argentino + <span className='moharu-name'>João "Moharu" Teló</span>?
+                    </p>
+                    <p className='news-text'>
+                        Será que MARADONA ES MUY BUENO defenderá a primeira divisão de JAJAJA sobre o escudo do time suéco?
+                    </p>
+                    <p className='news-text'>
+                        Teria Roão tramado um plano malígno para acabar com o futuro do nosso jogador?
+                    </p>
+                    <p className='news-text'>
+                        Só o futuro dirá. Enquanto o mesmo não chega, que tal mandar um e-mail com aquela receita gostosa de Pudim de Leite condensado para o moharunews@gmail.com?
+                    </p>
+                    <p className='news-text'>
+                        E o último questionamento que fica é:
+                    </p>
+                    <p className='news-moharup'>
+                        MOHARU NO VASCO?!
+                    </p>
+                </div>
+
+
+                <div className='news-container'>
                     <h2 className="news-title">Moharu assume amor por Argentina e avisa, "Em 2018 meu time é branco e azul-celeste"</h2>
                     <p className='news-text'>
                         <span className='moharu-name'>João "Moharu" Teló</span> deu uma declaração um tanto quanto polêmica no dia de hoje.
