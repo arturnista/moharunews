@@ -1,27 +1,33 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
 class App extends Component {
-    constructor(){
-        super()
+
+    constructor(props){
+        super(props)
+        
         this.state = {
             appClass: 'App',
             wrapperClass: 'wrapper'
         }
+
+        this.stickHeader = this.stickHeader.bind(this)
     }
+
     componentDidMount() {
-        window.addEventListener('scroll', this.stickHeader);
+        window.addEventListener('scroll', this.stickHeader)
     }
 
     componentWillUnmount(){
-        window.removeEventListener('scroll', this.stickHeader);
+        window.removeEventListener('scroll', this.stickHeader)
     }
 
-    stickHeader = () => {
-        if(window.scrollY < 100 )
-            this.setState({appClass: 'App', wrapperClass: 'wrapper'})
-        else
-            this.setState({appClass: 'App sticky-header', wrapperClass: 'wrapper wrapper-sticky'})
+    stickHeader() {
+        if(window.scrollY < 80 ) {
+            this.setState({ appClass: 'App', wrapperClass: 'wrapper' }) 
+        } else {
+            this.setState({ appClass: 'App sticky-header', wrapperClass: 'wrapper wrapper-sticky' })
+        }
     }
 
     render() {
@@ -34,11 +40,51 @@ class App extends Component {
                 <p className="App-title-text">Bem vindo ao</p>
                 <a href='https://www.facebook.com/moharuow' className='facebook-link'>
                     <h1 className="App-title">MOHARU NEWS</h1>
-                    <p className="App-email">moharunews@gmail.com</p>
                 </a>
                 <p className="App-title-text">O portal de informação do seu jogador favorito</p>
+                <p className="App-email">moharunews@gmail.com</p>
             </header>
             <div className={this.state.wrapperClass}>
+
+                <div className='news-container'>
+                    <h2 className="news-title">Moharu confirmado na Virtus Pro</h2>
+                    <p className='news-text'>
+                        Ultimamente <span className='moharu-name'>João "Moharu" Teló</span> sem sido bastante ativo em conversas pelo WhatsApp e, felizmente, isso tem gerado muitos vazamentos de dados.
+                    </p>
+                    <p className='news-text'>
+                        Durante o dia, nós da Equipe MoharuNews recebemos esta foto. Nela é possível ver o atleta usando a camisa do seu novo time, enquanto assina o contrato:
+                    </p>
+                    <div className='news-image-container'>
+                        <img className='news-image-inv' src="/images/moharu_assina_com_virtus_pro_time_super_top_de_alguns_jogos_mas_sera_que_nao_vai_ser_argentina.jpg"></img>
+                    </div>
+                    <p className='news-text'>
+                        Isto contradiz a informação publicada no dia de ontem, que <span className='moharu-name'>João "Moharu" Teló</span> teria sido contratado pela NIP. Após verificarmos que o e-mail da equipe de <strong>GAMES ELETRÔNICOS</strong> não é nip@bol.com.br, a Equipe MoharuNews dispensou os trabalhos da foto, nosso querido informante. Revoltado, a mesma declarou:
+                    </p>
+                    <p className='news-cit'><i>
+                        VOCÊS VÃO PAGAR POR ISSO!
+                    </i> - Afirma a foto, o que é estranho já que ninguém comprou nada.</p>
+                    <p className='news-text'>
+                        <span className='moharu-name'>João "Moharu" Teló</span> declarou que este será seu time definitivo. Também confirmou que jogará na primeira divisão da JAJAJA.
+                    </p>
+                    <p className='news-text'>
+                        A equipe da Virtus Pro publicou em suas redes sociais o audio que oficializa a contratação do jogador:
+                    </p>
+                    <audio controls className='news-audio'>
+                        <source src="/audio/ceo_da_virtus_pro_dando_declaracao_da_contratacao_do_moharu.ogg" type="audio/ogg" />
+                    </audio>
+                    <p className='news-text'>
+                        A repercusão não foi positiva, pelo tom informal da declaração. Arrependido, o CEO enviou uma nova mensagem, desta vez, segundo a empresa, em um tom que melhor representa os valores da equipe de <strong>GAMES ELETRÔNICOS</strong>.
+                    </p>
+                    <audio controls className='news-audio'>
+                        <source src="/audio/ceo_da_virtus_pro_se_arrepende_por_tom_informal_e_manda_a_real.ogg" type="audio/ogg" />
+                    </audio>
+                    <p className='news-text'>
+                        A Equipe MoharuNews deseja felicidades e muitas conquistas no seu novo time.
+                    </p>
+                    <p className='news-moharup'>
+                        MOHARU MUCHACHO!
+                    </p>
+                </div>
 
 
                 <div className='news-container'>
@@ -501,8 +547,8 @@ class App extends Component {
                 <p>1kt1kt Technologies © 2018 </p>
             </footer>
         </div>
-        );
+        )
     }
 }
 
-export default App;
+export default App

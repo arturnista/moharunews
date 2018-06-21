@@ -106,6 +106,8 @@ header {
 .news-container {
     padding: 20px;
     margin-bottom: 40px;
+    margin-left: 3vw;
+    margin-right: 3vw;
     background-color: #fff;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -167,7 +169,7 @@ header {
     min-height: 50x;
     padding: 0;
     display: inline-block;
-    border: red solid 2px;
+    border: red dotted 2px;
 }
 @media only screen and (max-width: 320px) {
     .App-title {
