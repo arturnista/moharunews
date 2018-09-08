@@ -63,6 +63,43 @@ class App extends Component {
             <div className={this.state.wrapperClass}>
 
                 <div className='news-container'>
+                    <h2 className="news-title">Moharu abre primeiro dia com duas vitórias</h2>
+                    <p className='news-text'>
+                        O campeonato de jogo de carta começa bem para <span className='moharu-name'>João "Moharu" Teló</span>, conseguindo duas vitórias de cara.
+                    </p>
+                    <p className='news-text'>
+                        O primeiro jogo foi ganho por WO, já que o seu oponente Paulo "Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?" trouxe um baralho de Magic the Gathering, um puta jogo bosta.
+                    </p>
+                    <p className='news-cit'><i>
+                        Nem sabia que era pokemon essa porra
+                    </i> - Lamentou Paulo.</p>
+                    <p className='news-text'>
+                        O segundo jogo foi igualmente fácil, o oponente não teve chance contra o jogador da galera. 
+                    </p>
+                    <p className='news-text'>
+                        <span className='moharu-name'>João "Moharu" Teló</span> lançou carta após carta com perfeição, como quem joga cartas em um torneio regional de pokemon.
+                    </p>
+                    <p className='news-text'>
+                        Seu adversário, Rafa dos Baralhos, não teve chances. Após a primeira rodada, o jogo já se decidiu, com <span className='moharu-name'>João "Moharu" Teló</span> fazendo praticamente tudo que está nas regras que fazem o outro perder.
+                    </p>
+                    <p className='news-text'>
+                        Na segunda rodada o jogo foi decidido com nosso <strong>GAMER PLAYER</strong> favorito finalizando o oponente como é possível no pokemon.
+                    </p>
+                    <p className='news-text'>
+                        Rafa dos Baralhos lamentou a derrota.
+                    </p>
+                    <p className='news-cit'><i>
+                        É ele jogou bem lançando cartas e bixos e magias e seila não sei bem como é pokemon é estranho pq tem que sacar carta pra ganhar e só mata 6 ou 8 não lembro seila só sei que perdi.
+                    </i></p>
+                    <p className='news-text'>
+                        <span className='moharu-name'>João "Moharu" Teló</span> segue forte na disputa. Os especialistas já o definem como principal jogador do Ano, talvez do século.
+                    </p>
+                    <p className='news-moharup'>
+                        A WILD MOHARU APPEARS!
+                    </p>
+                </div>
+
+                <div className='news-container'>
                     <h2 className="news-title">Moharu em campeonato de jogo de carta: "Estou preparado"</h2>
                     <p className='news-text'>
                         No sabado desta semana, <span className='moharu-name'>João "Moharu" Teló</span> participa do campeonato regional de "Jogo de carta".
