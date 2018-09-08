@@ -63,16 +63,50 @@ class App extends Component {
             <div className={this.state.wrapperClass}>
 
                 <div className='news-container'>
+                    <h2 className="news-title">Moharu empata terceiro jogo</h2>
+                    <p className='news-text'>
+                        Em um terceiro jogo emocionante, porém triste, <span className='moharu-name'>João "Moharu" Teló</span> empata.
+                    </p>
+                    <p className='news-text'>
+                        A primeira zebra do campeonato aconteceu! E foi contra nosso jogador!
+                    </p>
+                    <p className='news-text'>
+                        O jogo começou apertado, <span className='moharu-name'>João "Moharu" Teló</span> cometeu um deslize logo na primeira carta jogando, seila, um Squirtle?
+                    </p>
+                    <p className='news-text'>
+                        Isso atrapalhou completamente o jogo dele, já que o baralho dele não tinha nada de água!
+                    </p>
+                    <p className='news-text'>
+                        Seu oponente aproveitou isso para levar o jogo a empate, o melhor resultado obtido contra o nosso jogador em anos.
+                    </p>
+                    <p className='news-text'>
+                        Isso não deve atrapalhar a vida de <span className='moharu-name'>João "Moharu" Teló</span>, porém, Jorginho da 12 subiu muito no Ranking Mundial de pokemon, alcançando o primeiro lugar na categoria <strong>MELHORES PIORES QUE MOHARU</strong>.
+                    </p>
+                    <p className='news-text'>
+                        Além de pokemon, especialistas indicam que isso pode causar uma crise nas casas de apostas, que possivelmente não terão dinheiro para pagar suas perdas.
+                    </p>
+                    <p className='news-cit'><i>
+                        Ninguém esperava isso! É um desastre para a economia mundial!
+                    </i> - Afirmou Paulo Guedes, que entrou de férias ontem e passa a acompanhar os torneios de pokemon.</p>
+                    <p className='news-text'>
+                        Ainda assim, <span className='moharu-name'>João "Moharu" Teló</span> segue forte no torneio, sem derrotas até o momento de sua vida.
+                    </p>
+                    <p className='news-moharup'>
+                        A WILD MOHARU APPEARS!
+                    </p>
+                </div>
+
+                <div className='news-container'>
                     <h2 className="news-title">Moharu abre primeiro dia com duas vitórias</h2>
                     <p className='news-text'>
                         O campeonato de jogo de carta começa bem para <span className='moharu-name'>João "Moharu" Teló</span>, conseguindo duas vitórias de cara.
                     </p>
                     <p className='news-text'>
-                        O primeiro jogo foi ganho por WO, já que o seu oponente Paulo "Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?" trouxe um baralho de Magic the Gathering, um puta jogo bosta.
+                        O primeiro jogo foi ganho por WO, já que o seu oponente Paulo <i>"Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?"</i> Matias trouxe um baralho de Magic the Gathering, um puta jogo bosta.
                     </p>
                     <p className='news-cit'><i>
                         Nem sabia que era pokemon essa porra
-                    </i> - Lamentou Paulo.</p>
+                    </i> - Chorou Paulo.</p>
                     <p className='news-text'>
                         O segundo jogo foi igualmente fácil, o oponente não teve chance contra o jogador da galera. 
                     </p>
@@ -80,7 +114,7 @@ class App extends Component {
                         <span className='moharu-name'>João "Moharu" Teló</span> lançou carta após carta com perfeição, como quem joga cartas em um torneio regional de pokemon.
                     </p>
                     <p className='news-text'>
-                        Seu adversário, Rafa dos Baralhos, não teve chances. Após a primeira rodada, o jogo já se decidiu, com <span className='moharu-name'>João "Moharu" Teló</span> fazendo praticamente tudo que está nas regras que fazem o outro perder.
+                        Seu adversário, Rafa dos Baralhos, teve um jogo muito complicado. Após a primeira rodada, o jogo já se decidiu, com <span className='moharu-name'>João "Moharu" Teló</span> fazendo praticamente tudo que está nas regras que fazem o outro perder.
                     </p>
                     <p className='news-text'>
                         Na segunda rodada o jogo foi decidido com nosso <strong>GAMER PLAYER</strong> favorito finalizando o oponente como é possível no pokemon.
@@ -114,11 +148,11 @@ class App extends Component {
                         A direção do evento informa que 30% dos competidores desistiram do campeonato ao ver <span className='moharu-name'>João "Moharu" Teló</span> entrar no estadio.
                     </p>
                     <p className='news-text'>
-                        Paulo "Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?" não foi um deles. Em suas redes sociais ele afirmou:
+                        Paulo <i>"Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?"</i> Matias não foi um deles. Em suas redes sociais ele afirmou:
                     </p>
                     <p className='news-cit'><i>
                         Estou preparado!
-                    </i> - Afirmou Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?.</p>
+                    </i> - Afirmou <i>Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?</i>.</p>
                     <p className='news-text'>
                         Paulo deve ser a primeira vitima de <span className='moharu-name'>João "Moharu" Teló</span> no campeonato.
                     </p>
