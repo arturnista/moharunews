@@ -7,11 +7,14 @@ class App extends Component {
         super(props)
         
         this.state = {
+            regionalMessage: '',
+            regionalSel: -1,
             appClass: 'App',
             wrapperClass: 'wrapper'
         }
 
         this.stickHeader = this.stickHeader.bind(this)
+        this.sendRegionalSelectAnswer = this.sendRegionalSelectAnswer.bind(this)
     }
 
     componentDidMount() {
@@ -20,6 +23,19 @@ class App extends Component {
 
     componentWillUnmount(){
         window.removeEventListener('scroll', this.stickHeader)
+    }
+
+    sendRegionalSelectAnswer() {
+        let regionalMessage = ''
+        if(this.state.regionalSel === 0) {
+            regionalMessage = 'Moharu agradece pelo apoio!'
+        } else if(this.state.regionalSel === 1) {
+            regionalMessage = 'Tecnicamente o Moharu é um babaca então iremos contabilizar o voto para ele. Moharu agradece pelo apoio!'
+        } else if(this.state.regionalSel === 2) {
+            regionalMessage = 'Você selecionou a opção errada mas já arrumamos. Moharu agradece pelo apoio!'
+        }
+
+        this.setState({ regionalMessage, regionalSel: 0 })
     }
 
     stickHeader() {
@@ -33,7 +49,7 @@ class App extends Component {
     render() {
         return (
         <div className={this.state.appClass}>
-            <header className="App-header copa-theme">
+            <header className="App-header">
                 <div className="moharu-game">
                     <img src='/images/moharu.jpg' className="App-logo" alt="logo" title="MOHARU GAME: TENTE PARAR A FOTO NO MOMENTO CERTO" />
                 </div>
@@ -45,6 +61,54 @@ class App extends Component {
                 <p className="App-email">moharunews@gmail.com</p>
             </header>
             <div className={this.state.wrapperClass}>
+
+                <div className='news-container'>
+                    <h2 className="news-title">Moharu em campeonato de jogo de carta: "Estou preparado"</h2>
+                    <p className='news-text'>
+                        No sabado desta semana, <span className='moharu-name'>João "Moharu" Teló</span> participa do campeonato regional de "Jogo de carta".
+                    </p>
+                    <p className='news-text'>
+                        Nosso jogador preferido irá se encontrar com grandes lendas deste meio, como Rogério Pikachu, Jorginho da 12, o australiano Jair Daumaqdootra e Lebron James.
+                    </p>
+                    <div className='news-image-container'>
+                        <img className='news-image-inv' src="/images/moharu_em_campeonato_jogo_de_carta_ganha_deles_porra.jpeg"></img>
+                    </div>
+                    <p className='news-text'>
+                        A direção do evento informa que 30% dos competidores desistiram do campeonato ao ver <span className='moharu-name'>João "Moharu" Teló</span> entrar no estadio.
+                    </p>
+                    <p className='news-text'>
+                        Paulo "Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?" não foi um deles. Em suas redes sociais ele afirmou:
+                    </p>
+                    <p className='news-cit'><i>
+                        Estou preparado!
+                    </i> - Afirmou Eu desco essa carta em modo de defesa, pera, não tem isso no pokemon?.</p>
+                    <p className='news-text'>
+                        Paulo deve ser a primeira vitima de <span className='moharu-name'>João "Moharu" Teló</span> no campeonato.
+                    </p>
+                    <p className='news-text'>
+                        Iremos atualizar o site com as novidades.
+                    </p>
+                    <p className='news-text'>
+                        Enquanto isso, a equipe criativa MoharuNews criou uma enquete:
+                    </p>
+                    <div className='news-form'>
+                        <p>Quem você acha que irá ganhar o regional?</p>
+                        <div className={`news-options ${this.state.regionalMessage !== '' ? 'blocked' : 'available'}`}>
+                            <p className={`${this.state.regionalSel === 0 ? 'selected': ''}`} onClick={() => this.state.regionalMessage === '' && this.setState({ regionalSel: 0 })}>Moharu {this.state.regionalMessage !== '' && '(100%)'}</p>
+                            <p className={`${this.state.regionalSel === 1 ? 'selected': ''}`} onClick={() => this.state.regionalMessage === '' && this.setState({ regionalSel: 1 })}>Seila caralho qualquer babaca ai {this.state.regionalMessage !== '' && '(0%)'}</p>
+                            <p className={`${this.state.regionalSel === 2 ? 'selected': ''}`} onClick={() => this.state.regionalMessage === '' && this.setState({ regionalSel: 2 })}>Lebron James {this.state.regionalMessage !== '' && '(0%)'}</p>
+                        </div>
+                        {
+                            this.state.regionalMessage !== '' ? 
+                            <p className='news-options-answer'>{this.state.regionalMessage}</p>
+                            :
+                            <button onClick={this.sendRegionalSelectAnswer}>Enviar resposta!</button>
+                        }
+                    </div>
+                    <p className='news-moharup'>
+                        MOHARU EU ESCOLHO VOCÊ!
+                    </p>
+                </div>
 
                 <div className='news-container'>
                     <h2 className="news-title">Moharu confirmado na Virtus Pro</h2>
